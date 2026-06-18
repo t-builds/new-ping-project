@@ -2,7 +2,7 @@ const fetch = require("node-fetch");
 
 exports.handler = async function (event, context) {
   // Replace with your public Production Webhook URL
-  const url = "https://tbuilds-automation-hub.hf.space/webhook/keep-alive";
+  const url = "https://tbuilds-automation-hub.hf.space/workflow";
 
   try {
     const response = await fetch(url);
